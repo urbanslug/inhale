@@ -1,4 +1,4 @@
-FROM alpine:3.7
+FROM clojure:alpine
 
 RUN apk update && apk add nodejs-npm openjdk8 chromium git
 
